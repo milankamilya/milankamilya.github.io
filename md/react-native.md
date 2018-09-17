@@ -7,7 +7,7 @@ FDIS Quality is an support app for FDIS Group, Italy. The sole purpose of this i
 Technology: React-Native, Native-Base, SQLLite
 
 Screens : 
-[Toon-Audit-Submit](0_Toon-Audit-Submit.jpg), [Toon Audit](1_Toon-Audit.jpg)
+[Toon-Audit-Submit](https://github.com/milankamilya/milankamilya.github.io/blob/master/images/FDIS-Quality/0_Toon-Audit-Submit.jpg?raw=true), [Toon Audit](https://github.com/milankamilya/milankamilya.github.io/blob/master/images/FDIS-Quality/1_Toon-Audit.jpg?raw=true)
 
 
 ## Truck-Load
@@ -21,5 +21,5 @@ TruckLoad Driver - for Driver
 Technology: React-Native, Redux, Firebase, FCM, Fastlane (CI/CD)
 
 Screens : 
-[Dashboard](0_Dashboard.jpg), [LoadDetail](1_LoadDetail.jpg), [Bid Detail](2_BidDetail.jpg)
+[Dashboard](https://github.com/milankamilya/milankamilya.github.io/blob/master/images/TruckLoad/0_Dashboard.jpg?raw=true), [LoadDetail](https://github.com/milankamilya/milankamilya.github.io/blob/master/images/TruckLoad/1_LoadDetail.jpg?raw=true), [Bid Detail](https://github.com/milankamilya/milankamilya.github.io/blob/master/images/TruckLoad/2_BidDetail.jpg?raw=true)
 
