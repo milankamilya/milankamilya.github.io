@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Milan Kamilya</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="javascript" type="text/javascript" href="scripts/script.js">
+    <script>
+        function changeBGColor(item, color ){
+            console.log('changeBGColor called');
+            item.style.background = color;
+
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container">
+            <!-- Left Panel -->
+            <div id="left">
+                <div id="profile-container">
+                    <img src="images/profile.png" id="profile"/>
+                    <div id="title-container">
+                        <label id="title">Milan Kamilya</label>
+                    </div>
+                </div>
+                
+                <div id="github-container" onmouseover="changeBGColor(this,'#15908E')" onmouseout="changeBGColor(this,'#07E4E1')">
+                    <img src="images/github.png" id="github" class="logo" />
+                    <a href="https://github.com/milankamilya"  target="_blank"></a>
+                </div>
+                
+                <div id="stackoverflow-container" onmouseover="changeBGColor(this,'#15908E')" onmouseout="changeBGColor(this,'#07E4E1')">
+                    <img src="images/stack-overflow.png" id="stackoverflow" class="logo" />
+                    <a href="https://stackoverflow.com/users/2666902/milan-kamilya" target="_blank"> </a>
+                </div>
+                <div id="twitter-container" onmouseover="changeBGColor(this,'#15908E')" onmouseout="changeBGColor(this,'#07E4E1')">
+                    <img src="images/twitter.png" id="twitter" class="logo" />
+                    <a href="https://twitter.com/Milan_Kamilya" target="_blank"></a>
+                </div>
+                
+            </div>
+            <div id="center">
+                <div id="header">
+                    <label id="heading">Software Developer</label>
+                    <p id="description">
+                        Senior iOS Developer, React Native, Swift 4, Objective C, iPhone, Android, NodeJS, AngularJS
+                    </p>
+                </div>
+                <div id="content-body">
+
+                </div>
+            </div>
+
+            <!-- 
+            TODO :: Developer Branding
+            
+            1. Display Education
+            2. Experiences , ( ios, react-native, angular, nodejs, python)
+            3. Portfolio 
+            4. Photographs 
+            5. Testimonials
+            6. Contact Me Section
+            7. Blog
+            8. Hobby ( Guitar, )
+                
+            -->
+        </div>
+    </body>
+</html>

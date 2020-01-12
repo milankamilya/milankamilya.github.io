@@ -1,0 +1,153 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    width:100%;
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#left {
+    float:left;
+    width:22%;
+    height: 100%;
+    background-image: url(../images/grey.jpg);
+    background-repeat: repeat-y;
+    align-content: center;
+}
+
+#center {
+    display: right;
+    float: right;
+    margin:0 auto;
+    width:78%;
+    height: 100%;
+    /* background: #00ff00; */
+}
+
+#right {
+    float:right;
+    width:0px;
+    height: 0px;
+    background: #0000ff;
+}
+
+#profile {
+    width: 100%;
+}
+
+.logo {
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#github {
+    width: 50%;
+    margin: 10px;
+}
+
+#stackoverflow {
+    width: 70%;
+    margin: 15px;
+}
+
+#twitter {
+    margin: 10px;
+    width: 50%;
+}
+
+#github-container {
+    width: 80%;
+    margin: 20px;
+    height: 70px;
+    background-color: #07E4E1;
+    border-radius: 60px;
+    align-content: center;
+    box-shadow: 5px 10px 10px #222222;
+    position: relative;
+}
+
+#stackoverflow-container {
+    width: 80%;
+    margin: 20px;
+    height: 70px;
+    background-color: #07E4E1;
+    border-radius: 60px;
+    align-content: center;
+    box-shadow: 5px 10px 10px #222222;
+    position: relative;
+}
+
+#twitter-container {
+    width: 80%;
+    height: 100px;
+    margin: 20px;
+    height: 70px;
+    background-color: #07E4E1;
+    border-radius: 60px;
+    align-content: center;
+    box-shadow: 5px 10px 10px #222222;
+    position: relative;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    /* background-color: #0000ff; */
+}
+
+#content-body {
+    /* background-color: #0000af; */
+}
+
+#profile-container {
+    position: relative;
+    width: 100%;
+}
+
+#title-container {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    background-color: #00000044;
+    align-items: center;
+}
+
+#title {
+    font-family: 'Heiti TC';
+    font-size: 35px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#heading {
+    font-family: 'Heiti TC';
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    width: 100%
+}
+
+#description {
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+}
+
+a {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    display:inline;
+}
