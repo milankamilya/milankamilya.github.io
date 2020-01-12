@@ -1,60 +1,154 @@
 # SITE CONFIGURATION
-baseurl: ""
-url: "https://milankamilya.github.io"
+# baseurl: ""
+# url: "https://milankamilya.github.io"
 
-# THEME-SPECIFIC CONFIGURATION
-title: Milan Kamilya                                    # site's title
-description: "Personal website for resume & blog"      # used by search engines
-avatar: assets/img/avatar                              # Empty for no avatar in navbar
-#favicon: assets/favicon.ico                             # Icon displayed in the tab
+# # THEME-SPECIFIC CONFIGURATION
+# title: Milan Kamilya                                    # site's title
+# description: "Personal website for resume & blog"      # used by search engines
+# avatar: assets/img/avatar                              # Empty for no avatar in navbar
+# #favicon: assets/favicon.ico                             # Icon displayed in the tab
+# twitter_username: Milan_Kamilya
+# github_username:  milankamilya
+
+# # Build settings
+# theme: jekyll-theme-basically-basic
+
+# plugins:
+#   - jekyll-feed
+
+# defaults:
+#   - 
+#     scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#         layout: "post"
+#         author: "Milan Kamilya"
+#         permalink: "/:title"
+
+# # Header and footer text
+# header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
+# header_feature_image: assets/img/pexels/triangular.jpeg
+# footer_text: >
+#   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+# # Blog
+# excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+# post_navigation: true
+# color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+
+# # Features
+# katex: true                                             # Enable if using math markup
+# #google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
+# disqus_shortname: disqus_VuIGNG1hoD                                       # Your discus shortname for comments
+# #layout_variables:                                       # Open the "_sass > base" folder, and open "_variables.scss"
+# #footer_icons:                                           # In _data/social.yml
+# #share_buttons:                                          # In _data/social.yml
+# #authors:                                                # In _data/authors.yml
+# #language:                                               # In _data/language.yml
+
+# # PAGINATION
+# #paginate: 5
+# #paginate_path: "blog/page:num"
+
+# # PORTFOLIO
+# collections:
+#   portfolio:
+#     output: true
+#     permalink: /:collection/:name
+
+
+
+
+# # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+# remote_theme: "mmistakes/jekyll-theme-basically-basic"
+
+
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+lang: en-US
+title: 
+email: milankamilya@gmail.com
+description: "I am Senior iOS Developer. Besides developing cool iOS native apps, am also developing react-native and nodejs backend with mongodb. I am ML / AI enthusiast. While I am not coding, play guitar and make Tea for Wife 😉."
+baseurl: # the optional subpath of your site, e.g. "/blog"
+url: "https://milankamilya.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+author:
+  name: Milan Kamilya
+  twitter: Milan_Kamilya
+  picture: assets/img/avatar.jpg
 twitter_username: Milan_Kamilya
-github_username:  milankamilya
+github_username: milankamilya
+logo: # path of site logo, e.g. "/assets/images/logo.png"
+search: # true, false (default)
+search_full_content: false # true, false (default)
+search_provider: # lunr (default), algolia
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 
 # Build settings
-theme: type-on-strap
-
-plugins:
+markdown: kramdown
+theme: jekyll-theme-basically-basic
+plugins: # previsously gems
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
 
+# Pagination - https://jekyllrb.com/docs/pagination/
+# paginate: 10
+# paginate_path: /page:num/
+
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
+
+# Front Matter Defaults
 defaults:
-  - 
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: "_posts"
+      type: posts
     values:
-        layout: "post"
-        author: "Milan Kamilya"
-        permalink: "/blogs/:title"
-
-# Header and footer text
-header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
-header_feature_image: assets/img/pexels/triangular.jpeg
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
-# Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
-post_navigation: true
-color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
-
-# Features
-katex: true                                             # Enable if using math markup
-#google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
-disqus_shortname: disqus_VuIGNG1hoD                                       # Your discus shortname for comments
-#layout_variables:                                       # Open the "_sass > base" folder, and open "_variables.scss"
-#footer_icons:                                           # In _data/social.yml
-#share_buttons:                                          # In _data/social.yml
-#authors:                                                # In _data/authors.yml
-#language:                                               # In _data/language.yml
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
+      layout: post
+      read_time: true
+      author: "Milan Kamilya"
+      permalink: "/:title"
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -63,6 +157,5 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-
-# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap
+# # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+# remote_theme: "mmistakes/jekyll-theme-basically-basic"
