@@ -1,1 +1,22 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Milan Kamilya
+description: personal github page for resume, blogs
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" #"https://milankamilya.github.io" 
+
+# User settings
+username: Milan Kamilya
+user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+user_title: iOS || Swift || React-Native || Nodejs Developer
+email: milankamilya@gmail.com
+twitter_username: Milan_Kamilya
+github_username:  milankamilya
+medium_username: "@milan_kamilya"
+linkedin_url: "https://www.linkedin.com/in/milan-kamilya-6427a82a"
+
+
+# Google-analytics
+google-analytics:
+  id: "UA-156285726-1"
+
+exclude: ['package.json', 'src' , 'node_modules']

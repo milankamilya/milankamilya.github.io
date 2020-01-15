@@ -1,67 +1,134 @@
-<html>
-    <head>
-        <title>Milan Kamilya</title>
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
-        <link rel="javascript" type="text/javascript" href="scripts/script.js">
-    <script>
-        function changeBGColor(item, color ){
-            console.log('changeBGColor called');
-            item.style.background = color;
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        }
-    </script>
-    </head>
-    <body>
-        <div id="container">
-            <!-- Left Panel -->
-            <div id="left">
-                <div id="profile-container">
-                    <img src="images/profile.png" id="profile"/>
-                    <div id="title-container">
-                        <label id="title">Milan Kamilya</label>
-                    </div>
-                </div>
-                
-                <div id="github-container" onmouseover="changeBGColor(this,'#15908E')" onmouseout="changeBGColor(this,'#07E4E1')">
-                    <img src="images/github.png" id="github" class="logo" />
-                    <a href="https://github.com/milankamilya"  target="_blank"></a>
-                </div>
-                
-                <div id="stackoverflow-container" onmouseover="changeBGColor(this,'#15908E')" onmouseout="changeBGColor(this,'#07E4E1')">
-                    <img src="images/stack-overflow.png" id="stackoverflow" class="logo" />
-                    <a href="https://stackoverflow.com/users/2666902/milan-kamilya" target="_blank"> </a>
-                </div>
-                <div id="twitter-container" onmouseover="changeBGColor(this,'#15908E')" onmouseout="changeBGColor(this,'#07E4E1')">
-                    <img src="images/twitter.png" id="twitter" class="logo" />
-                    <a href="https://twitter.com/Milan_Kamilya" target="_blank"></a>
-                </div>
-                
-            </div>
-            <div id="center">
-                <div id="header">
-                    <label id="heading">Software Developer</label>
-                    <p id="description">
-                        Senior iOS Developer, React Native, Swift 4, Objective C, iPhone, Android, NodeJS, AngularJS
-                    </p>
-                </div>
-                <div id="content-body">
+  <title>Milan Kamilya</title>
+  <meta name="description" content="personal github page for resume, blogs">
 
-                </div>
-            </div>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
 
-            <!-- 
-            TODO :: Developer Branding
-            
-            1. Display Education
-            2. Experiences , ( ios, react-native, angular, nodejs, python)
-            3. Portfolio 
-            4. Photographs 
-            5. Testimonials
-            6. Contact Me Section
-            7. Blog
-            8. Hobby ( Guitar, )
-                
-            -->
-        </div>
-    </body>
-</html>
+  <body>
+      <div id="particles-js">
+  <div class="header">
+      <h1>
+        <span class="site-title">Milan Kamilya</span>
+        <span class="site-description">iOS || Swift || React-Native || Nodejs Developer</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="Send email" href="mailto:milankamilya@gmail.com"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/Milan_Kamilya"><i
+            class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <!-- <a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a> -->
+        <a aria-label="My Github" target="_blank" href="https://github.com/milankamilya"><i
+            class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        <a aria-label="My Medium Blog" target="_blank" href="https://medium.com/@milan_kamilya"><i
+            class="icon fa fa-medium" aria-hidden="true"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://www.linkedin.com/in/milan-kamilya-6427a82a"><i
+            class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+      <!--
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#projects" data-scroll>Projects</a>
+      </div>
+      -->
+  </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
+
+      <section id="about">
+         <div class="user-details">
+  <h1> My Expertise </h1>
+  <p> Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS. </p>
+</div>
+  <div class="user">
+    <div class="tech">
+      <h2>Design</h2>
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-bootstrap-plain-wordmark colored"></i>
+      <i class="devicon-sass-original colored"></i>
+      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+        Vinyl XOXO lumbersexual</p>
+    </div>
+    <div class="tech">
+      <h2>Code</h2>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-react-original-wordmark colored"></i>
+      <i class="devicon-nodejs-plain-wordmark"></i>
+      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+        Vinyl XOXO lumbersexual</p>
+    </div>
+    <div class="tech">
+      <h2>Tools</h2>
+      <i class="devicon-git-plain"></i>
+      <i class="devicon-gulp-plain colored"></i>
+      <i class="devicon-atom-original-wordmark"></i>
+      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+        Vinyl XOXO lumbersexual</p>
+    </div>
+</div>
+
+      </section>
+      <section id="projects">
+        <div class="user-details">
+  <h1> Featured Projects </h1>
+</div>
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="/assets/img/mountains.jpg" />
+  </div>
+  <div class="contents">
+    <h3> Project Title </h3>
+    <ul>
+      <li> Featured Skills</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a class="project-link" href="#">Check it out</a>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="/assets/img/skate.jpg" />
+  </div>
+  <div class="contents-right">
+    <h3> Project Title </h3>
+    <ul>
+      <li> Featured Skills</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a class="project-link" href="#">Check it out</a>
+  </div>
+</div>
+
+      </section>
+        
+      <!--
+<footer class="footer">
+    <p>&copy; Milan Kamilya</p>
+    <p>Build with Jekyll and <span class="love">❤</span> by <a href="https://github.com/nrandecker">Nathan Randecker</a></p>
+</footer>
+-->
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="/assets/js/sweet-scroll.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<!-- Google Analytics -->
+
+<script>
+var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+if (dnt != "1" && dnt != "yes") {
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-156285726-1', 'auto');
+ga('send', 'pageview');
+}
+</script>
+
+
+
+  </body>
